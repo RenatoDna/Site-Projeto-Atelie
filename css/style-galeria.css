@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.main-galeria{
+    display: block;
+    padding: 50px;
+    flex-direction: column;
+    background-color: #fcf8f5;
+}
+.galeria-conteudo{
+    padding: 50px;
+    display:flex;
+    align-items: center;
+    text-align:left;
+    justify-content:space-around;
+}
+.div-galeria{
+    height: 460px;
+    width: 350px;
+    display: block;
+    flex-direction: column;
+}    
+.img-galeria{
+    width: 350px;
+    height: 300px;
+    border-radius: 4px;
+}
+.h1-galeria{
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.h3-galeria{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.span-galeria{
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 1300px) {
+    .main-galeria{
+        display: flex;
+        align-items: center;
+        height:auto;
+        gap: 75px;
+    }
+    .galeria-conteudo{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
