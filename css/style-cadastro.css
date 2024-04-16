@@ -56,7 +56,14 @@ button:hover{
 button:focus{
     outline: none;
 }
-
+@media screen and (max-width: 700px) {
+    .main-cadastro{
+        padding: 20px;
+    }
+    .login-container{
+        min-width: 450px;
+    }
+}
 @media screen and (max-width: 768px) {
     .main-cadastro{
         padding: 20px;
