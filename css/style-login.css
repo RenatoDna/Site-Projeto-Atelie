@@ -69,3 +69,8 @@ button:focus{
 .ancora-esq-senha:hover,.ancora-cadastro:hover{
     color: #1138e6;
 }
+@media screen and (max-width: 800px) {
+    .login-container{
+        min-width: 340px;
+    }
+}

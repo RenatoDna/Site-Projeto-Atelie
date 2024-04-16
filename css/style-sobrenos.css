@@ -56,5 +56,16 @@
         align-items: center;
         text-align: center;
     }
-
+}
+@media screen and (max-width: 800px) {
+    .sobrenos-img{
+        width: 340px;
+    }
+    .dados-sobrenos{
+        flex-direction: column;
+    }
+    .Endereco-sobre-nos{
+        align-items: center;
+        text-align: center;
+    }
 }
